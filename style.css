@@ -1,10 +1,4 @@
 /*==================================
-* Author        : "ThemeSine"
-* Template Name :  Browny  HTML Template
-* Version       : 1.0
-==================================== */
-
-/*==================================
 font-family: 'Poppins', sans-serif;
 ==================================== */
 
@@ -17,10 +11,8 @@ font-family: 'Poppins', sans-serif;
 5.  Education
 6.  Skill
 7.  Experience
-8.  Profiles
-9.  Portfolio
-10. Clients
-11. Contact
+8.  Portfolio
+9. Contact
 
 /*-------------------------------------
 		1.General css (Reset code)
@@ -695,8 +687,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*hm-foot-icon*/
 .hm-foot-icon {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.hm-foot-icon ul li{float:left;}
+.hm-foot-icon ul li{
+    float:left;
+}
 .hm-foot-icon ul li>a {
     color: #636a82;
     font-size: 2.5rem;
